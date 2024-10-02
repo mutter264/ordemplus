@@ -1,0 +1,103 @@
+/*Gabriel Mutter de Souza 3C*/
+:root{
+    --vermelho: rgba(82, 0, 0, 1);
+    --branco:  rgb(255, 255, 255);
+    --preto:  rgb(0, 0, 0);
+    --font3: "Cinzel", serif;
+    --outra-font: "IM Fell English SC", serif; 
+}
+body{
+    background-color: var(--preto) ;
+    color: var(--branco);
+}
+.bah{
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+.nois{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 150px;   
+}
+.continer__botao{
+    background-color: var(--vermelho);
+    border-radius: 7px;
+    padding: 1em;
+    color: var(--branco);
+    display: block;
+    text-decoration:none ;
+    margin-bottom: 1em;
+}
+.botao_secundario{
+    background-color: transparent;
+    border: 5px solid white;
+}
+.imagem{
+    margin: 1em 0 2em 0;
+}
+.chave{
+    margin: 0 6em;
+}
+.diferente{
+    font-family: var(--font3);
+    font-size: 15px;
+    font-weight: 500;
+}
+h1{
+    font-family: var(--outra-font);
+    font-size: 40px;
+    font-weight: 400;
+}
+.meme{
+    height: 300px;
+    margin: 40px 40px 30px 50px;
+}
+.legal{
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+}
+h2{
+    font-size: 30px;
+    font-family: var(--outra-font);
+}
+h3{
+    font-family: var(--font3);
+    font-size: 20px;
+}
+.segbah{
+    margin-left: 30px;
+}
+.otodiv{
+    display: grid;
+    grid-template-columns: 70%;
+    align-items: center;
+    text-align: center;
+    margin-left: 120px;
+}
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+.dispositivos{
+    text-align: center;
+}
+.rodape{
+    text-align: center;
+    margin: 10em 0 5em 0 ;
+}
+.continer__botao:hover{
+    color: rgb(201, 2, 2);
+}
+.continer__botao:active{
+    color: red;
+}
+.maior:hover{
+    size: 30px ;
+}
